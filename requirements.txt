@@ -1,3 +1,4 @@
 # requirements for building the docs
 mkdocs==0.16.3
 mkdocs-material==1.10.1
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
